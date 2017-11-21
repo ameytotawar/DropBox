@@ -1,0 +1,21 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "angular": "^1.6.6",
+    "bcrypt": "^1.0.3",
+    "bootstrap": "^4.0.0-alpha.6",
+    "express": "^4.16.2",
+    "jquery": {
+      "integrity": "sha1-XE2d5lKvbNCncBVKYxu6ErAVx4c=",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.2.1.tgz",
+      "version": "3.2.1"
+    },
+    "mysql": "^2.15.0",
+    "tether": {
+      "integrity": "sha512-RQ+DAk1gwcQpc0If2dYeFdWPb1osUnMivXAUcAaLXfwoRtoKr/XdVluxNqx7g+YGRvOuPJY2b036hdpdTV97Pg==",
+      "resolved": "https://registry.npmjs.org/tether/-/tether-1.4.1.tgz",
+      "version": "1.4.1"
+    }
+  }
+}

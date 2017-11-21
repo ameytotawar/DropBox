@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="dropApp">
+<head>
+    <meta charset="utf-8" />
+    <title>DropBox</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="angularsrc.js"></script>
+</head>
+<body ng-controller="mainctrl">
+    <div class="jumbotron">
+        <div class="container">
+            <div class="col-sm-8 col-sm-offset-2">
+                <a id="btn-login" ng-click="login()" ng-model="logbut" ng-show="logbut" class="btn btn-success">Login  </a>
+                <div ng-include="template.url"></div>
+            </div>
+        </div>
+    </div>
+    <div class="credits text-center">
+        <p>
+            Amey Totawar
+        </p>
+    </div>
+
+</body>
+</html>
