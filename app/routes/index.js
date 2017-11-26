@@ -18,4 +18,8 @@ router
     .route('/regsuccess')
     .post(ctrls.signupGetCred);     
 
+router
+    .route('/upload')
+    .post(ctrls.uploadFile);     
+
 module.exports = router;

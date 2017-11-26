@@ -1,6 +1,9 @@
 var mysql = require('mysql');
 var path = require('path');
 var bcrypt = require('bcrypt');
+var multer = require('multer');
+var upload = multer({ dest: 'public/data' });
+var formidable = require('formidable');
 
 var conn = mysql.createConnection({
     host: 'localhost',
@@ -64,3 +67,25 @@ module.exports.signupGetCred = function(req, res) {
     //res.sendFile(path.join(__dirname,'views','login.html'));
 };
 
+module.exports.uploadFile = function(req, res) {
+    console.log('upload file \n');
+    //var f = new FormData()
+    //var file = new FormData();
+    
+    console.log(req);
+    //upload.single(file.name);
+
+    // var form = new formidable.IncomingForm();
+    
+    // form.parse(req);
+
+    // form.on('fileBegin', function (name, file){
+    //     file.path = __dirname + '/public/' + 'data/' + file.name;
+    //     upload.single(file.name);
+    //     //console.log(file.path);
+    // });
+
+    // form.on('file', function (name, file){
+    //     console.log('Uploaded ' + file.name);
+    // });
+};

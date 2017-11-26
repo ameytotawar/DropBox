@@ -5,12 +5,16 @@
     "angular": "^1.6.6",
     "bcrypt": "^1.0.3",
     "bootstrap": "^4.0.0-alpha.6",
+    "connect": "^3.6.5",
     "express": "^4.16.2",
+    "formidable": "^1.1.1",
     "jquery": {
       "integrity": "sha1-XE2d5lKvbNCncBVKYxu6ErAVx4c=",
       "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.2.1.tgz",
       "version": "3.2.1"
     },
+    "multer": "^1.3.0",
+    "multipart": "^0.1.5",
     "mysql": "^2.15.0",
     "tether": {
       "integrity": "sha512-RQ+DAk1gwcQpc0If2dYeFdWPb1osUnMivXAUcAaLXfwoRtoKr/XdVluxNqx7g+YGRvOuPJY2b036hdpdTV97Pg==",
